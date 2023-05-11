@@ -5,10 +5,10 @@ import Switch from './components/switch';
 function App() {
   return (
     <div className="App">
+      <Switch />
       <div className="graph-box">
         <MyGraph />
       </div>
-      <Switch />
     </div>
   );
 }
